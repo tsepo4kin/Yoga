@@ -1,52 +1,30 @@
-@charset "UTF-8";
-.header__nav-menu {
-  position: absolute;
-  width: 46px;
-  height: 10px;
-  left: 176px;
-  top: 69px;
-  font-family: Geometria;
-  font-size: 16px;
-  line-height: 10px;
-  color: #8B7EAC;
-}
-
-.header__phone-number {
-  position: absolute;
-  width: 138px;
-  height: 0px;
-  left: 1162px;
-  top: 79px;
-  font-family: Geometria;
-  font-size: 16px;
-  line-height: 0px;
-  color: #8B7EAC;
+.header {
+  background-image: url(../img/yogaHeader.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
 }
 
 .header__main-discription {
-  position: absolute;
-  width: 582px;
-  height: 0px;
-  left: 300px;
-  top: 208px;
+  display: block;
+  margin-top: 110px;
+  margin-left: 300px;
+  margin-bottom: 0;
   font-family: Caveat;
   font-style: normal;
   font-weight: normal;
   font-size: 45px;
-  line-height: 0px;
   color: #8E80A9;
 }
 
 .header__main-title {
   /* YOGA */
-  position: absolute;
-  width: 1069px;
-  height: 57px;
-  left: 185px;
-  top: 388px;
+  display: block;
+  width: 1050px;
+  margin: 0px auto 0 auto;
+  height: 270px;
   font-family: Geometria;
   font-size: 265px;
-  line-height: 0px;
   /* or 0% */
   letter-spacing: 0.34em;
   color: #FFFFFF;
@@ -54,40 +32,63 @@
 }
 
 .header__city {
-  /* Санкт-Петербург */
-  position: absolute;
-  width: 140px;
-  height: 15px;
-  left: 1161px;
-  top: 679px;
   font-family: Geometria;
   font-size: 16px;
   line-height: 15px;
-  /* identical to box height, or 94% */
   color: #8B7EAC;
 }
 
+.top-navigation {
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-navigation__nav-menu {
+  margin-left: 175px;
+  margin-right: 0px;
+  width: 45px;
+  font-family: Geometria;
+  font-size: 16px;
+  line-height: 10px;
+  color: #8B7EAC;
+}
+
+.top-navigation__phone-number {
+  margin-left: auto;
+  margin-right: 140px;
+  width: 138px;
+  display: block;
+  font-family: Geometria;
+  font-size: 16px;
+  color: #8B7EAC;
+}
+
+.registration {
+  margin: 0 auto;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+}
+
 .registration__button {
-  /* Rectangle */
-  position: absolute;
   width: 56px;
   height: 48px;
-  left: 571px;
-  top: 500px;
   background: #E65C7B;
+  border: 0;
+  color: white;
 }
 
 .registration__label {
-  /* Запишитесь на бесплатное пробное занятие */
-  position: absolute;
-  width: 191px;
-  height: 40px;
-  left: 640px;
-  top: 506px;
+  margin-left: 5px;
+  width: 190px;
+  display: block;
   font-family: Geometria;
   font-size: 14px;
   line-height: 20px;
-  /* or 143% */
   color: #E65C7B;
 }
 /*# sourceMappingURL=index.css.map */
