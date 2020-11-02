@@ -1,8 +1,10 @@
+@charset "UTF-8";
 .header {
   background-image: url(../img/yogaHeader.png);
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 0 auto;
+  padding-bottom: 200px;
 }
 
 .header__main-discription {
@@ -90,5 +92,126 @@
   font-size: 14px;
   line-height: 20px;
   color: #E65C7B;
+}
+
+.bot-navigation {
+  margin-top: 110px;
+  margin-left: 175px;
+  margin-right: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bot-navigation__social-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.bot-navigation__city {
+  font-family: Geometria;
+  font-size: 16px;
+  line-height: 15px;
+  /* identical to box height, or 94% */
+  color: #8B7EAC;
+}
+
+.directions {
+  background-image: url(../img/yogaPattern2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 1260px;
+  height: 7200px;
+  margin: 0 auto;
+}
+
+.directions__title {
+  text-align: center;
+  font-family: Geometria;
+  font-size: 30px;
+  line-height: 15px;
+  color: #8E80A9;
+}
+
+.direction-item {
+  display: inline-block;
+}
+
+.direction-item-main {
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 105px;
+  margin-right: 0;
+  width: 370px;
+  height: 500px;
+  background-color: white;
+  /* Rectangle */
+  -webkit-box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+          box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+}
+
+.direction-item-main__image {
+  width: 100%;
+}
+
+.direction-item-main__title {
+  /* Хатха-йога */
+  margin-top: 40px;
+  margin-left: 45px;
+  width: 260px;
+  font-family: Geometria;
+  font-size: 16px;
+  line-height: 15px;
+  color: #8E80A9;
+}
+
+.direction-item-main__work-time {
+  /* Пн, Ср, Пт – с 12:00 до 15:00 Вт, Чт – с 18:00 до 21:00 */
+  margin-top: 10px;
+  margin-left: 45px;
+  width: 260px;
+  font-family: Geometria;
+  font-size: 12px;
+  line-height: 20px;
+  /* or 167% */
+  color: #8E80A9;
+}
+
+.direction-item-main__coach {
+  /* Инструктор Емельянова Полина */
+  display: block;
+  margin-top: 15px;
+  margin-left: 45px;
+  width: 260px;
+  font-family: Geometria;
+  font-size: 12px;
+  line-height: 15px;
+  /* or 125% */
+  color: #E65C7B;
+}
+
+.direction-item-main__button {
+  display: inline-block;
+}
+
+@font-face {
+  font-family: "Geometria";
+  src: url("../fonts/geometria/Geometria.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Caveat";
+  src: url("../fonts/caveat/Caveat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 /*# sourceMappingURL=index.css.map */

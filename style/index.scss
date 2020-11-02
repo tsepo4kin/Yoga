@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   margin: 0 auto;
-  
+  padding-bottom: 200px;
 
 
 
@@ -70,7 +70,6 @@
 
     color: #8B7EAC;
 
-
   }
 
   &__phone-number {
@@ -121,8 +120,18 @@
 }
 
 .bot-navigation {
+
+  margin-top: 110px;
+  margin-left: 175px;
+  margin-right: 140px;
+  display: flex;
+  justify-content: space-between;
   
   &__social-buttons {
+
+    display: flex;
+    width: 70px;
+    justify-content: space-around;
 
     &__vk {
     }
@@ -136,6 +145,14 @@
 
   &__city {
 
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 15px;
+    /* identical to box height, or 94% */
+
+    color: #8B7EAC;
+
+
   }
 }
 
@@ -143,16 +160,30 @@
 }
 .directions {
 
+  background-image: url(../img/yogaPattern2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 1260px;
+  height: 7200px;
+  margin: 0 auto;
+
   &__title {
+
+    text-align: center;
+    font-family: Geometria;
+    font-size: 30px;
+    line-height: 15px;
+
+    color: #8E80A9;
+
+
   }
 
   &__button {
   }
 }
 .direction-item {
-
-  &_active {
-  }
+  display: inline-block;
 
   &__image {
   }
@@ -169,6 +200,76 @@
   &__button {
   }
 }
+
+.direction-item-main {
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 105px;
+  margin-right: 0;
+  width: 370px;
+  height: 500px;
+  background-color: white;
+
+  /* Rectangle */
+
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+
+
+  &__image {
+    width: 100%;
+  }
+
+  &__title {
+    /* Хатха-йога */
+
+    margin-top: 40px;
+    margin-left: 45px;
+    width: 260px;
+    font-family: Geometria;
+    font-size: 16px;
+    line-height: 15px;
+
+    color: #8E80A9;
+
+
+  }
+
+  &__work-time {
+    /* Пн, Ср, Пт – с 12:00 до 15:00 Вт, Чт – с 18:00 до 21:00 */
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 260px;
+    font-family: Geometria;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+    color: #8E80A9;
+
+
+  }
+
+  &__coach {
+    /* Инструктор Емельянова Полина */
+    display: block;
+    margin-top: 15px;
+    margin-left: 45px;
+    width: 260px;
+    font-family: Geometria;
+    font-size: 12px;
+    line-height: 15px;
+    /* or 125% */
+
+    color: #E65C7B;
+
+
+  }
+
+  &__button {
+    display: inline-block;
+  }
+}
+
 .season-tickets {
 
   &__title {
@@ -331,3 +432,21 @@
   &__node {
   }
 }
+
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+  font-family: "Geometria"; 
+  // адрес шрифта и тип 
+  src: url("../fonts/geometria/Geometria.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом) 
+  font-family: "Caveat"; 
+  // адрес шрифта и тип 
+  src: url("../fonts/caveat/Caveat-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
