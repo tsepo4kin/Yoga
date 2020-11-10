@@ -20,14 +20,14 @@
       <label class="registration__label">Запишитесь на бесплатное пробное занятие</label>
     </div>
     <div class="bot-navigation">
-      <div class="bot-navigation__social-buttons">
-        <a class="bot-navigation__social-buttons__vk">
+      <div class="social-buttons">
+        <a class="social-buttons__vk">
           <img src="img/vk.svg"></img>
         </a>
-        <a class="bot-navigation__social-buttons__twitter">
+        <a class="social-buttons__twitter">
           <img src="img/twitter.svg"></img>
         </a>
-        <a class="bot-navigation__social-buttons__facebook">
+        <a class="social-buttons__facebook">
           <img src="img/fb.svg"></img>
         </a>
       </div>
@@ -37,70 +37,66 @@
 
   <main class="main">
     <section class="directions">
-      <h2 class="directions__title">Направления</h2>
-      <article class="direction-item-main">
+
+      <h2 class="subtitle">Направления</h2>
+
+      <article class="direction-item direction-item--main">
         <img src="img/hathaTrainer.png" class="direction-item-main__image">
         <h4 class="direction-item-main__title">Хатха-йога</h4>
         <p class="direction-item-main__work-time">
           Пн, Ср, Пт - с 12:00 до 15:00 <br>
           Вт, Чт - с 18:00 до 21:00
         </p>
-        <span class="direction-item-main__coach">
+        <span class="direction-item__coach">
           Инструктор Полина Емельянова
         </span>
-        <button class="direction-item-main__button"> > </button>
+        <button class="direction-item__button"> > </button>
       </article>
 
-      <div class="direction-wrapper">
-        <article class="direction-item">
-          <img src="img/ashataTrainer.png" class="direction-item__image">
-          <div class="direction-item__info">
-            <h4 class="direction-item__info__title">Ашатанга-йога</h4>
-            <p class="direction-item__info__work-time">
-              Пн, Ср, Пт - с 11:00 до 14:00 <br>
-              Вт, Чт - с 19:00 до 21:00
-            </p>
-            <span class="direction-item__info__coach">
-              Инструктор Полина Емельянова
-            </span>
-            <button class="direction-item__info__button"> > </button>
-          </div>
-        </article>
-  
-        <article class="direction-item">
-          <img src="img/kundaliniTrainer.png" class="direction-item__image">
-          <div class="direction-item__info">
-            <h4 class="direction-item__info__title">Кундалини-Йога</h4>
-            <p class="direction-item__info__work-time">
-              Пн, Ср, Пт - с 12:00 до 15:00 <br>
-              Вт, Чт - с 18:00 до 21:00
-            </p>
-            <span class="direction-item__info__coach">
-              Инструктор Полина Емельянова
-            </span>
-            <button class="direction-item__info__button"> > </button>
-          </div>
-        </article>
+      <article class="direction-item">
+        <img src="img/ashataTrainer.png" class="direction-item__image">
+        <h4 class="direction-item__title">Ашатанга-йога</h4>
+        <p class="direction-item__work-time">
+          Пн, Ср, Пт - с 11:00 до 14:00 <br>
+          Вт, Чт - с 19:00 до 21:00
+        </p>
+        <span class="direction-item__coach">
+          Инструктор Полина Емельянова
+        </span>
+        <button class="direction-item__button"> > </button>
+      </article>
 
-        <button class="direction-wrapper__button">Смотреть больше</button>
-      </div>
+      <article class="direction-item">
+        <img src="img/kundaliniTrainer.png" class="direction-item__image">
+        <h4 class="direction-item__title">Кундалини-Йога</h4>
+        <p class="direction-item__work-time">
+          Пн, Ср, Пт - с 12:00 до 15:00 <br>
+          Вт, Чт - с 18:00 до 21:00
+        </p>
+        <span class="direction-item__coach">
+          Инструктор Полина Емельянова
+        </span>
+        <button class="direction-item__button"> > </button>
+      </article>
+
+      <button class="direction-item__button">Смотреть больше</button>
 
     </section>
 
     <section class="season-tickets">
-      <h2 class="season-tickets__title">Абонементы</h2>
+      <h2 class="subtitle">Абонементы</h2>
 
-      <ul class="season-tickets__duration">
-        <li class="season-tickets__duration__mounth">
-          <button class="season-tickets__duration__mounth__button">1 месяц</button>
+      <ul class="ticket-sduration">
+        <li class="ticket-sduration__item ticket-sduration__item--active">
+          <button class="ticket-sduration__item__button">1 месяц</button>
         </li>
 
-        <li class="season-tickets__duration__six-mounth">
-          <button class="season-tickets__duration__six-mounths__button">6 месяцев</button>
+        <li class="ticket-sduration__item">
+          <button class="ticket-sduration__item__button">6 месяцев</button>
         </li>
 
-        <li class="season-tickets__duration__twelve-mounths">
-          <button class="season-tickets__duration__twelve-mounths__button">12 месяцев</button>
+        <li class="ticket-sduration__item">
+          <button class="ticket-sduration__item__button">12 месяцев</button>
         </li>
       </ul>
 
@@ -110,7 +106,7 @@
         <span class="ticket-item__cost">1 300 Р</span>
       </article>
 
-      <article class="ticket-item ticket-item_active">
+      <article class="ticket-item ticket-item--active">
         <h4 class="ticket-item__title">Безлимит</h4>
         <p class="ticket-item__time">Посещение не ограничено по времени</p>
         <span class="ticket-item__cost">2 800 Р</span>
@@ -126,62 +122,79 @@
     </section>
 
     <section class="team">
-      <h2 class="team-title">Наша команда</h2>
-      <ul class="team-members">
-        <li class="team-member-node">
-          <img class="team-member-node__image" src="" alt="">
-          <p class="team-member-node__name">Инструктор Сережа Попов</p>
-          <div class="team-member-socials">
-            <i class="team-member-socials__vk"></i>
-            <i class="team-member-socials__facebook"></i>
+
+      <h2 class="subtitle">Наша команда</h2>
+
+      <ul class="team">
+        <li class="team-member">
+          <img class="team-member__image" src="" alt="">
+          <p class="team-member__name">Инструктор Сережа Попов</p>
+          <div class="social-buttons">
+            <a class="social-buttons__vk">
+              <img src="img/vk.svg"></img>
+            </a>
+            <a class="social-buttons__twitter">
+              <img src="img/twitter.svg"></img>
+            </a>
           </div>
-          <button class="team-member-node__details">
+          <button class="team-member__details">
             <u>Смотреть</u>
           </button>
         </li>
-        <li class="team-member-node">
-          <img class="team-member-node__image" src="" alt="">
-          <p class="team-member-node__name">Инструктор Сережа Попов</p>
-          <div class="team-member-socials">
-            <i class="team-member-socials__vk"></i>
-            <i class="team-member-socials__facebook"></i>
+
+        <li class="team-member">
+          <img class="team-member__image" src="" alt="">
+          <p class="team-member__name">Инструктор Сережа Попов</p>
+          <div class="social-buttons">
+            <a class="social-buttons__vk">
+              <img src="img/vk.svg"></img>
+            </a>
+            <a class="social-buttons__twitter">
+              <img src="img/twitter.svg"></img>
+            </a>
           </div>
-          <button class="team-member-node__details">
+          <button class="team-member__details">
             <u>Смотреть</u>
           </button>
         </li>
-        <li class="team-member-node">
-          <img class="team-member-node__image" src="" alt="">
-          <p class="team-member-node__name">Инструктор Сережа Попов</p>
-          <div class="team-member-socials">
-            <i class="team-member-socials__vk"></i>
-            <i class="team-member-socials__facebook"></i>
+
+        <li class="team-member">
+          <img class="team-member__image" src="" alt="">
+          <p class="team-member__name">Инструктор Сережа Попов</p>
+          <div class="social-buttons">
+            <a class="social-buttons__vk">
+              <img src="img/vk.svg"></img>
+            </a>
+            <a class="social-buttons__twitter">
+              <img src="img/twitter.svg"></img>
+            </a>
           </div>
-          <button class="team-member-node__details">
+          <button class="team-member__details">
             <u>Смотреть</u>
           </button>
         </li>
       </ul>
-      <div class="team-members__pagination">
-        <button class="team-members__back"> < </button>
-          <span class="team-members__count">1/9</span>
-        <button class="team-members__forward"> > </button>
+
+      <div class="pagination">
+        <button class="pagination__back"> < </button>
+          <span class="pagination__count">1/9</span>
+        <button class="pagination__forward"> > </button>
       </div>
 
-      <article class="team-member-description">
-        <h4 class="team-member-description__title">Сережа Попов</h4>
-        <span class="team-member-description__experience">Опыт преподавания: 8 лет</span>
-        <div class="team-member-description__description">
-          <p class="team-member-description__description__item">
+      <article class="trainer">
+        <h4 class="trainer__title">Сережа Попов</h4>
+        <span class="trainer__experience">Опыт преподавания: 8 лет</span>
+        <div class="about-trainer">
+          <p class="about-trainer__text">
             Образование и опыт работы: Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих.
           </p>
-          <p class="team-member-description__description__item">
+          <p class="trainer-description__text">
             Обучалась в Индии (Международная ассоциация йоги: классическая йога, мастер йога-терапии), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова), Московский центр классической йоги Виктора Бойко.
           </p>
-          <p class="team-member-description__description__item">
+          <p class="trainer-description__text">
             Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал - центр №401). 
           </p>
-          <p>
+          <p class="trainer-description__text">
             Организатор и участник конвенций и семинаров по йоге, медитативным оборудованием и здоровому питанию.
           </p>
         </div>
@@ -189,7 +202,7 @@
     </section>
 
     <section class="reviews">
-      <h2 class="reviews__title">Отзывы</h2>
+      <h2 class="subtitle">Отзывы</h2>
 
       <button class="reviews__button-back"> < </button>
 
@@ -201,9 +214,13 @@
           <img class="reviewer__image" src="" alt="">
           <h5 class="reviewer__name">Сережа Попов</h5>
           <span class="reviewer__date">16 мая 2018</span>
-          <div class="reviewer-socials">
-            <i class="reviewer-socials__vk"></i>
-            <i class="reviewer-socials__facebook"></i>
+          <div class="social-buttons">
+            <a class="social-buttons__vk">
+              <img src="img/vk.svg"></img>
+            </a>
+            <a class="social-buttons__twitter">
+              <img src="img/twitter.svg"></img>
+            </a>
           </div>
         </div>
       </article>
@@ -216,9 +233,13 @@
           <img class="reviewer__image" src="" alt="">
           <h5 class="reviewer__name">Сережа Попов</h5>
           <span class="reviewer__date">16 мая 2018</span>
-          <div class="reviewer-socials">
-            <i class="reviewer-socials__vk"></i>
-            <i class="reviewer-socials__facebook"></i>
+          <div class="social-buttons">
+            <a class="social-buttons__vk">
+              <img src="img/vk.svg"></img>
+            </a>
+            <a class="social-buttons__twitter">
+              <img src="img/twitter.svg"></img>
+            </a>
           </div>
         </div>
       </article>
@@ -228,41 +249,49 @@
   </main>
 
   <footer class="footer">
-    <section class="contacts-wrapper">
-      <div class="contacts">
+
+    <section class="">
+      <article class="contacts">
         <p class="contacts__address">Адрес: <br> Московский проспект, 22</p>
         <p class="contacts__work-time">График работы: <br> Пн-Вс с 11:00 до 21:00</p>
         <p class="contacts__number">Телефон: <br> 8 (812) 690-10-10</p>
         <p class="contacts__email">Email: <br> yogaspb@gmail.com</p>
 
-        <div class="contacts-socials">
-          <i class="contacts-socials__vk"></i>
-          <i class="contacts-socials__twitter"></i>
-          <i class="contacts-socials__facebook"></i>
+        <div class="social-buttons">
+          <a class="social-buttons__vk">
+            <img src="img/vk.svg"></img>
+          </a>
+          <a class="social-buttons__twitter">
+            <img src="img/twitter.svg"></img>
+          </a>
+          <a class="social-buttons__facebook">
+            <img src="img/fb.svg"></img>
+          </a>
         </div>
-      </div>
+      </article>
 
-      <form class="signup-lesson" action="">
-        <h5 class="signup-lesson__title">Запишись на бесплатное занятие</h5>
-        <label class="signup-lesson__label" for="name">Ваше имя</label>
-        <input class="signup-lesson__input" id="name" type="text">
+      <form class="form" action="">
+        <h5 class="form__title">Запишись на бесплатное занятие</h5>
+        <label class="form__label" for="name">Ваше имя</label>
+        <input class="form__input" id="name" type="text">
         
-        <label class="signup-lesson__label" for="number">Ваш телефон</label>
-        <input class="signup-lesson__input" id="name" id="number" type="text">
+        <label class="form__label" for="number">Ваш телефон</label>
+        <input class="form__input" id="name" id="number" type="text">
 
-        <button class="signup-lesson__button">Оставить заявку</button>
+        <button class="form__button">Оставить заявку</button>
       </form>
     </section>
 
-    <section class="footer-copyrights">
-      <span class="footer-copyrights__site">
+    <section class="copyrights">
+      <span class="copyrights__site">
         Yogaspb.com
       </span>
       
-      <span class="footer-copyrights__node">
+      <span class="copyrights__node">
         С 2020 Все права защищены.
       </span>
     </section>
+    
   </footer>
 </body>
 </html>
