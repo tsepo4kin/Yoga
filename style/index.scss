@@ -130,38 +130,138 @@
 .main {
 }
 .directions {
+  background-image: url(../img/yogaPattern2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 65px;
+
+  &__button {
+    border: 0;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 155px;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+    font-family: Geometria;
+    font-size: 12px;
+    font-weight: bold;
+    color: #8E80A9;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-top: 65px;
+  }
 }
 .subtitle {
-
+  text-align: center;
+  font-family: Geometria;
+  font-size: 30px;
+  font-weight: bold;
+  color: #8E80A9;
+  width: 100%;
 }
 .direction-item {
+  width: 525px;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+
+  &__wrapper {
+    width: 270px;
+    height: 115px;
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+  }
 
   &__coach {
+    display: block;
+    width: 123px;
+    height: 30px;
+    font-family: Geometria;
+    font-size: 12px;
+    line-height: 15px;
+    color: #E65C7B;
+    margin-right: 0;
   }
 
   &__button {
+    width: 45px;
+    height: 30px;
+    background: #8E80A9;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    margin-left: 65px;
   }
 
   &__image {
   }
 
   &__title {
+    margin: 0;
+    display: block;
+    font-family: Geometria;
+    font-size: 16px;
+    color: #8E80A9;
   }
 
   &__work-time {
+    font-family: Geometria;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #8E80A9;
   }
 }
 .direction-item--main {
-}
-.direction-item-main {
+  margin-left: 260px;
+  margin-top: 65px;
+  margin-right: 35px;
+  margin-bottom: 155px;
+  width: 360px;
+  height: 490px;
+  display: flex;
+  flex-wrap: wrap;
 
-  &__image {
-  }
+  .direction-item {
+    &__image {
+      width: 360px;
+      height: 310px;
+    }
 
-  &__title {
-  }
+    &__wrapper {
+      width: 250px;
+      padding-left: 45px;
+    }
 
-  &__work-time {
+    &__title {
+    
+    }
+
+    &__work-time {
+    }
+
+    &__coach {
+    }
+  
+    &__button {
+      width: 64px;
+      height: 180px;
+      margin: 0;
+
+    }
+  
   }
 }
 .season-tickets {

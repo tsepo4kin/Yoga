@@ -119,4 +119,147 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.directions {
+  background-image: url(../img/yogaPattern2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 65px;
+}
+
+.directions__button {
+  border: 0;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 155px;
+  height: 48px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+          box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8E80A9;
+}
+
+.directions__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 65px;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: Geometria;
+  font-size: 30px;
+  font-weight: bold;
+  color: #8E80A9;
+  width: 100%;
+}
+
+.direction-item {
+  width: 525px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.direction-item__wrapper {
+  width: 270px;
+  height: 115px;
+  padding-left: 35px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+          box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.direction-item__coach {
+  display: block;
+  width: 123px;
+  height: 30px;
+  font-family: Geometria;
+  font-size: 12px;
+  line-height: 15px;
+  color: #E65C7B;
+  margin-right: 0;
+}
+
+.direction-item__button {
+  width: 45px;
+  height: 30px;
+  background: #8E80A9;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  margin-left: 65px;
+}
+
+.direction-item__title {
+  margin: 0;
+  display: block;
+  font-family: Geometria;
+  font-size: 16px;
+  color: #8E80A9;
+}
+
+.direction-item__work-time {
+  font-family: Geometria;
+  height: 40px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #8E80A9;
+}
+
+.direction-item--main {
+  margin-left: 260px;
+  margin-top: 65px;
+  margin-right: 35px;
+  margin-bottom: 155px;
+  width: 360px;
+  height: 490px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.direction-item--main .direction-item__image {
+  width: 360px;
+  height: 310px;
+}
+
+.direction-item--main .direction-item__wrapper {
+  width: 250px;
+  padding-left: 45px;
+}
+
+.direction-item--main .direction-item__button {
+  width: 64px;
+  height: 180px;
+  margin: 0;
+}
 /*# sourceMappingURL=index.css.map */
