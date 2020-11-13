@@ -141,7 +141,6 @@
     border: 0;
     cursor: pointer;
     width: 100%;
-    margin-bottom: 155px;
     height: 48px;
     background: #FFFFFF;
     box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
@@ -156,6 +155,7 @@
     flex-flow: column;
     justify-content: space-between;
     margin-top: 65px;
+    height: 490px;
   }
 }
 .subtitle {
@@ -264,31 +264,106 @@
   
   }
 }
+
+
 .season-tickets {
+  background-image: url(../img/yogaClouds.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+
+  &__wrapper {
+    display: flex;
+    width: 930px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
 }
-.ticket-sduration {
+.tickets-duration {
+  width: 290px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
 
   &__item {
+    &__button {
+      font-family: Geometria;
+      font-size: 12px;
+      font-weight: bold;
+      color: #E65C7B;
+      background-color: transparent;
+      border: 0;
+      cursor: pointer;
+    }
   }
 
   &__item--active {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #E65C7B;
   }
 }
 .ticket-item {
+  width: 260px;
+  height: 240px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+
 
   &__title {
+    text-align: center;
+    font-family: Geometria;
+    font-size: 18px;
+    color: #8E80A9;
+    margin-top: 58px;
   }
 
   &__time {
+    font-family: Geometria;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #E65C7B;
   }
 
   &__cost {
+    display: block;
+    width: 100%;
+    font-family: Geometria;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #8E80A9;
   }
 
   &__button {
+    font-family: Geometria;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 225px;
+    height: 55px;
+    background: #8E80A9;
+    border: 0;
+    cursor: pointer;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
 }
 .ticket-item--active {
+  width: 330px;
+  height: 330px;
+  margin-bottom: 146px;
 }
 .team {
 }
