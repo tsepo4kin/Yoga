@@ -120,6 +120,16 @@
           justify-content: space-between;
 }
 
+.social-buttons--double {
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .directions {
   background-image: url(../img/yogaPattern2.png);
   background-repeat: no-repeat;
@@ -379,21 +389,77 @@
   width: 425px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  padding: 0;
+  margin-left: 400px;
 }
 
 .team-member {
   list-style: none;
   width: 100%;
-}
-
-.team-member__wrapper {
+  height: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 30px;
+}
+
+.team-member__wrapper {
+  margin-top: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 350px;
+  height: 65px;
+  padding: 20px 25px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+          box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
 }
 
 .team-member__image {
   width: 144px;
   height: 144px;
+  margin-right: -120px;
+  z-index: 1;
+}
+
+.team-member__name {
+  width: 90px;
+  height: 40px;
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #E65C7B;
+  margin: 0 80px 10px 140px;
+}
+
+.team-member__direction {
+  width: 96px;
+  height: 20px;
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #8E80A9;
+  margin-left: 140px;
+}
+
+.team-member__details {
+  border: 0;
+  border-bottom: 1px solid #8E80A9;
+  background: transparent;
+  width: 60px;
+  padding: 0;
+  height: 20px;
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #8E80A9;
+  cursor: pointer;
+  margin-left: auto;
 }
 /*# sourceMappingURL=index.css.map */
