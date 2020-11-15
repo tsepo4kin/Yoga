@@ -7,6 +7,10 @@
   font-family: Caveat; /* Имя шрифта */
   src: url(../fonts/caveat/Caveat-Regular.ttf); /* Путь к файлу со шрифтом */
 }
+@font-face {
+  font-family: Francois One; /* Имя шрифта */
+  src: url(../fonts/Francois-One/FrancoisOne-Regular.ttf); /* Путь к файлу со шрифтом */
+}
 
 .header {
 
@@ -166,6 +170,7 @@
     flex-flow: column;
     justify-content: space-between;
     margin-top: 65px;
+    margin-right: auto;
     height: 490px;
   }
 }
@@ -236,7 +241,7 @@
   }
 }
 .direction-item--main {
-  margin-left: 260px;
+  margin-left: auto;
   margin-top: 65px;
   margin-right: 35px;
   margin-bottom: 155px;
@@ -385,7 +390,17 @@
     width: 425px;
     flex-wrap: wrap;
     padding: 0;
-    margin-left: 280px;
+    margin-left: auto;
+    position: relative;
+
+    &__background {
+      position: absolute;
+      z-index: -1;
+      width: 1200px;
+      height: 1325;
+      top: -23%;
+      left: -63%;
+    }
   }
 }
 .team-member {
@@ -500,7 +515,17 @@
 .trainer {
   margin-top: 55px;
   margin-left: 65px;
+  margin-right: auto;
   width: 500px;
+  position: relative;
+
+  &__background {
+    position: absolute;
+    width: 576px;
+    height: 514px;
+    left: 5%;
+    top: -17%;
+  }
 
   &__title {
     font-family: Geometria;
@@ -530,36 +555,105 @@
     margin-bottom: 35px;
   }
 }
-.trainer-description {
-
-  &__text {
-  }
-}
 .reviews {
+  display: flex;
+  flex-wrap: wrap;
 
   &__button-back {
+    margin: auto -33px auto auto;
+    width: 45px;
+    height: 30px;
+    color: white;
+    background: #8E80A9;
+    border: 0; 
+    cursor: pointer;
+    z-index: 1;
   }
 
   &__button-forward {
+    margin: auto auto auto -33px;
+    width: 45px;
+    height: 30px;
+    color: white;
+    background: #8E80A9;
+    border: 0; 
+    cursor: pointer;
   }
 }
 .review-item {
+  width: 305px;
+  height: 315px;
+  margin: 0 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  padding-left: 85px;
+  padding-right: 55px;
+
 
   &__icon {
+    display: block;
+    width: 34px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    font-family: Francois One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    color: rgba(142, 128, 169, 0.39);
   }
 
   &__description {
+    width: 300px;
+    font-family: Geometria;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #8E80A9;
+    margin-top: 0px;
+    margin-bottom: 25px;
+
+
   }
 }
 .reviewer {
+  display: flex;
+  margin-top: -10px;
+  margin-bottom: 30px;
 
   &__image {
+    width: 51px;
+    height: 51px;
+  }
+
+  &__wrapper {
+    margin-left: 13px;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   &__name {
+    width: 100%;
+    height: 16px;
+    font-family: Geometria;
+    font-size: 12px;
+    margin: 0;
+
+    color: rgba(230, 92, 123, 0.7);
+
+
   }
 
   &__date {
+    width: 100%;
+    height: 16px;
+    font-family: Geometria;
+    font-weight: bold;
+    font-size: 10px;
+    color: rgba(142, 128, 169, 0.7);
+
+
   }
 }
 .footer {
