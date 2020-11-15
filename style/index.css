@@ -382,6 +382,14 @@
   margin-bottom: 146px;
 }
 
+.team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .team__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -390,7 +398,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 0;
-  margin-left: 400px;
+  margin-left: 280px;
 }
 
 .team-member {
@@ -461,5 +469,89 @@
   color: #8E80A9;
   cursor: pointer;
   margin-left: auto;
+}
+
+.pagination {
+  width: 160px;
+  margin-top: 45px;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.pagination__back {
+  width: 45px;
+  height: 30px;
+  border: 0;
+  background-color: #8E80A9;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination__back:hover {
+  background-color: white;
+  color: #8E80A9;
+  border: 1px solid #8E80A9;
+}
+
+.pagination__count {
+  width: 27px;
+  height: 20px;
+  font-family: Geometria;
+  font-size: 16px;
+  line-height: 20px;
+  color: #8E80A9;
+  margin: auto;
+}
+
+.pagination__forward {
+  width: 45px;
+  height: 30px;
+  border: 0;
+  background-color: #8E80A9;
+  color: white;
+  cursor: pointer;
+}
+
+.pagination__forward:hover {
+  background-color: white;
+  color: #8E80A9;
+  border: 1px solid #8E80A9;
+}
+
+.trainer {
+  margin-top: 55px;
+  margin-left: 65px;
+  width: 500px;
+}
+
+.trainer__title {
+  font-family: Geometria;
+  font-size: 18px;
+  line-height: 20px;
+  color: #8E80A9;
+  margin-bottom: 10px;
+}
+
+.trainer__experience {
+  font-family: Geometria;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #E65C7B;
+  margin-bottom: 25px;
+}
+
+.about-trainer__text {
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #8E80A9;
+  margin-bottom: 35px;
 }
 /*# sourceMappingURL=index.css.map */
