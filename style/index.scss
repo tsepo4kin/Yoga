@@ -13,7 +13,6 @@
 }
 
 .header {
-
   background-image: url(../img/yogaHeader.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -28,9 +27,7 @@
     font-weight: normal;
     font-size: 45px;
 
-    color: #8E80A9;
-
-
+    color: #8e80a9;
   }
 
   &__main-title {
@@ -42,10 +39,9 @@
     letter-spacing: 0.34em;
     text-align: center;
 
-    color: #FFFFFF;
+    color: #ffffff;
 
     text-shadow: 0px 4px 50px rgba(131, 115, 161, 0.6);
-
   }
 }
 .top-navigation {
@@ -55,26 +51,19 @@
   justify-content: space-between;
 
   &__nav-menu {
-
     font-family: Geometria;
     font-size: 16px;
     font-weight: bold;
 
-    color: #8B7EAC;
-
-
+    color: #8b7eac;
   }
 
   &__phone-number {
-
     font-family: Geometria;
     font-size: 16px;
     font-weight: bold;
 
-
-    color: #8B7EAC;
-
-
+    color: #8b7eac;
   }
 }
 .registration {
@@ -87,8 +76,9 @@
     height: 48px;
     margin-right: 13px;
     border: 0;
-    background: #E65C7B;
-
+    background: #e65c7b;
+    color: white;
+    cursor: pointer;
   }
 
   &__label {
@@ -99,8 +89,7 @@
     font-size: 14px;
     line-height: 20px;
     margin: auto 0;
-    color: #E65C7B;
-
+    color: #e65c7b;
   }
 }
 .bot-navigation {
@@ -113,9 +102,7 @@
     font-family: Geometria;
     font-size: 16px;
     font-weight: bold;
-    color: #8B7EAC;
-
-
+    color: #8b7eac;
   }
 }
 .social-buttons {
@@ -123,12 +110,15 @@
   display: flex;
   justify-content: space-between;
   &__vk {
+    cursor: pointer;
   }
 
   &__twitter {
+    cursor: pointer;
   }
 
   &__facebook {
+    cursor: pointer;
   }
 }
 
@@ -137,12 +127,12 @@
   display: flex;
   justify-content: space-between;
   &__vk {
+    cursor: pointer;
   }
 
   &__twitter {
+    cursor: pointer;
   }
-}
-.main {
 }
 .directions {
   background-image: url(../img/yogaPattern2.png);
@@ -157,12 +147,12 @@
     cursor: pointer;
     width: 100%;
     height: 48px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
     font-family: Geometria;
     font-size: 12px;
     font-weight: bold;
-    color: #8E80A9;
+    color: #8e80a9;
   }
 
   &__wrapper {
@@ -179,7 +169,7 @@
   font-family: Geometria;
   font-size: 30px;
   font-weight: bold;
-  color: #8E80A9;
+  color: #8e80a9;
   width: 100%;
 }
 .direction-item {
@@ -194,7 +184,7 @@
     padding-left: 35px;
     padding-top: 35px;
     padding-bottom: 30px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
     display: flex;
     flex-wrap: wrap;
@@ -207,29 +197,27 @@
     font-family: Geometria;
     font-size: 12px;
     line-height: 15px;
-    color: #E65C7B;
+    color: #e65c7b;
     margin-right: 0;
   }
 
   &__button {
     width: 45px;
     height: 30px;
-    background: #8E80A9;
+    background: #8e80a9;
     color: white;
     cursor: pointer;
     border: 0;
     margin-left: 65px;
   }
 
-  &__image {
-  }
 
   &__title {
     margin: 0;
     display: block;
     font-family: Geometria;
     font-size: 16px;
-    color: #8E80A9;
+    color: #8e80a9;
   }
 
   &__work-time {
@@ -237,7 +225,7 @@
     height: 40px;
     font-size: 12px;
     line-height: 20px;
-    color: #8E80A9;
+    color: #8e80a9;
   }
 }
 .direction-item--main {
@@ -261,26 +249,13 @@
       padding-left: 45px;
     }
 
-    &__title {
-    
-    }
-
-    &__work-time {
-    }
-
-    &__coach {
-    }
-  
     &__button {
       width: 64px;
       height: 180px;
       margin: 0;
-
     }
-  
   }
 }
-
 
 .season-tickets {
   background-image: url(../img/yogaClouds.png);
@@ -311,7 +286,7 @@
       font-family: Geometria;
       font-size: 12px;
       font-weight: bold;
-      color: #E65C7B;
+      color: #e65c7b;
       background-color: transparent;
       border: 0;
       cursor: pointer;
@@ -320,21 +295,20 @@
 
   &__item--active {
     padding-bottom: 5px;
-    border-bottom: 1px solid #E65C7B;
+    border-bottom: 1px solid #e65c7b;
   }
 }
 .ticket-item {
   width: 260px;
   height: 240px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
-
 
   &__title {
     text-align: center;
     font-family: Geometria;
     font-size: 18px;
-    color: #8E80A9;
+    color: #8e80a9;
     margin-top: 58px;
   }
 
@@ -346,7 +320,7 @@
     margin-bottom: 30px;
     font-weight: bold;
     text-align: center;
-    color: #E65C7B;
+    color: #e65c7b;
   }
 
   &__cost {
@@ -356,7 +330,7 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    color: #8E80A9;
+    color: #8e80a9;
   }
 
   &__button {
@@ -364,10 +338,10 @@
     font-size: 12px;
     text-align: center;
     font-weight: bold;
-    color: #FFFFFF;
+    color: #ffffff;
     width: 225px;
     height: 55px;
-    background: #8E80A9;
+    background: #8e80a9;
     border: 0;
     cursor: pointer;
     margin-top: 35px;
@@ -417,7 +391,7 @@
     width: 350px;
     height: 65px;
     padding: 20px 25px;
-    background: #FFFFFF;
+    background: #ffffff;
     box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
   }
 
@@ -435,7 +409,7 @@
     font-size: 12px;
     font-weight: bold;
     line-height: 20px;
-    color: #E65C7B;
+    color: #e65c7b;
     margin: 0 80px 10px 140px;
   }
 
@@ -446,13 +420,13 @@
     font-size: 12px;
     font-weight: bold;
     line-height: 20px;
-    color: #8E80A9;
+    color: #8e80a9;
     margin-left: 140px;
   }
 
   &__details {
     border: 0;
-    border-bottom: 1px solid #8E80A9;
+    border-bottom: 1px solid #8e80a9;
     background: transparent;
     width: 60px;
     padding: 0;
@@ -461,7 +435,7 @@
     font-size: 12px;
     font-weight: bold;
     line-height: 20px;
-    color: #8E80A9;
+    color: #8e80a9;
     cursor: pointer;
     margin-left: auto;
   }
@@ -477,13 +451,13 @@
     width: 45px;
     height: 30px;
     border: 0;
-    background-color: #8E80A9;
+    background-color: #8e80a9;
     color: white;
     cursor: pointer;
     &:hover {
       background-color: white;
-      color: #8E80A9;
-      border: 1px solid #8E80A9;
+      color: #8e80a9;
+      border: 1px solid #8e80a9;
     }
   }
 
@@ -493,7 +467,7 @@
     font-family: Geometria;
     font-size: 16px;
     line-height: 20px;
-    color: #8E80A9;
+    color: #8e80a9;
     margin: auto;
   }
 
@@ -501,14 +475,14 @@
     width: 45px;
     height: 30px;
     border: 0;
-    background-color: #8E80A9;
+    background-color: #8e80a9;
     color: white;
     cursor: pointer;
 
     &:hover {
       background-color: white;
-      color: #8E80A9;
-      border: 1px solid #8E80A9;
+      color: #8e80a9;
+      border: 1px solid #8e80a9;
     }
   }
 }
@@ -531,7 +505,7 @@
     font-family: Geometria;
     font-size: 18px;
     line-height: 20px;
-    color: #8E80A9;
+    color: #8e80a9;
     margin-bottom: 10px;
   }
 
@@ -540,18 +514,17 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
-    color: #E65C7B;
+    color: #e65c7b;
     margin-bottom: 25px;
   }
 }
 .about-trainer {
-
   &__text {
     font-family: Geometria;
     font-size: 12px;
     font-weight: bold;
     line-height: 20px;
-    color: #8E80A9;
+    color: #8e80a9;
     margin-bottom: 35px;
   }
 }
@@ -564,8 +537,8 @@
     width: 45px;
     height: 30px;
     color: white;
-    background: #8E80A9;
-    border: 0; 
+    background: #8e80a9;
+    border: 0;
     cursor: pointer;
     z-index: 1;
   }
@@ -575,8 +548,8 @@
     width: 45px;
     height: 30px;
     color: white;
-    background: #8E80A9;
-    border: 0; 
+    background: #8e80a9;
+    border: 0;
     cursor: pointer;
   }
 }
@@ -584,11 +557,10 @@
   width: 305px;
   height: 315px;
   margin: 0 10px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
   padding-left: 85px;
   padding-right: 55px;
-
 
   &__icon {
     display: block;
@@ -610,11 +582,9 @@
     font-size: 12px;
     font-weight: bold;
     line-height: 20px;
-    color: #8E80A9;
+    color: #8e80a9;
     margin-top: 0px;
     margin-bottom: 25px;
-
-
   }
 }
 .reviewer {
@@ -641,8 +611,6 @@
     margin: 0;
 
     color: rgba(230, 92, 123, 0.7);
-
-
   }
 
   &__date {
@@ -652,45 +620,163 @@
     font-weight: bold;
     font-size: 10px;
     color: rgba(142, 128, 169, 0.7);
-
-
   }
 }
 .footer {
+  background-image: url(../img/yogaFooter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+.top-footer {
+  height: 475px;
+  width: 930px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
 .contacts {
+  margin-top: 170px;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
   &__address {
+    width: 220px;
+    font-family: Geometria;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8e80a9;
   }
 
   &__work-time {
+    width: 220px;
+    font-family: Geometria;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8e80a9;
   }
 
   &__number {
+    width: 145px;
+    font-family: Geometria;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8e80a9;
   }
 
   &__email {
+    width: 145px;
+    font-family: Geometria;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8e80a9;
   }
 }
 .form {
+  width: 410px;
+  height: 335px;
+  margin-top: 20px;
 
   &__title {
+    font-family: Geometria;
+    font-size: 30px;
+    line-height: 40px;
+    color: #8e80a9;
+    margin-bottom: 0;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   &__label {
+    font-family: Geometria;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(142, 128, 169, 0.4);
+    padding-top: -20px;
+    transform: translateY(40px);
+    transform-origin: left top;
+    cursor: text;
+    transition: all 0.3s;
   }
 
   &__input {
+    width: 400px;
+    background: transparent;
+    border: none;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border-bottom: 1px solid #bdbdbd;
+    outline: none;
+    font-family: Geometria;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(142, 128, 169, 0.4);
+
+    &:focus,
+    &:not(:placeholder-shown) {
+      color: #8e80a9;
+      font-weight: bold;
+      border-bottom: 2px solid #8e80a9;
+    }
+
+    &:focus + label,
+    &:not(:placeholder-shown) + label {
+      color: #8e80a9;
+      font-weight: bold;
+      transform: translateY(10px) scale(0.8);
+    }
   }
 
   &__button {
+    margin-top: 55px;
+    width: 407px;
+    height: 56px;
+    background: #e65c7b;
+    border: 0;
+    color: white;
+    font-family: Geometria;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #ffffff;
+
+    cursor: pointer;
   }
 }
 .copyrights {
-
+  width: 100%;
+  height: 75px;
+  display: flex;
+  background-color: #8373a1;
   &__site {
+    font-family: Geometria;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 379px;
+    color: rgba(255, 255, 255, 0.5);
   }
 
   &__node {
+    font-family: Geometria;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 379px;
+    color: rgba(255, 255, 255, 0.5);
   }
 }

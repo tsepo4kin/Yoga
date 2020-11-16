@@ -277,11 +277,11 @@
 
   <footer class="footer">
 
-    <section class="">
+    <section class="top-footer">
       <article class="contacts">
         <p class="contacts__address">Адрес: <br> Московский проспект, 22</p>
-        <p class="contacts__work-time">График работы: <br> Пн-Вс с 11:00 до 21:00</p>
         <p class="contacts__number">Телефон: <br> 8 (812) 690-10-10</p>
+        <p class="contacts__work-time">График работы: <br> Пн-Вс с 11:00 до 21:00</p>
         <p class="contacts__email">Email: <br> yogaspb@gmail.com</p>
 
         <div class="social-buttons">
@@ -298,12 +298,14 @@
       </article>
 
       <form class="form" action="">
-        <h5 class="form__title">Запишись на бесплатное занятие</h5>
-        <label class="form__label" for="name">Ваше имя</label>
-        <input class="form__input" id="name" type="text">
-        
-        <label class="form__label" for="number">Ваш телефон</label>
-        <input class="form__input" id="name" id="number" type="text">
+        <h5 class="form__title">Запишись на бесплатное пробное занятие</h5>
+        <div class="form__wrapper">
+          <input class="form__input" placeholder=" " id="number" type="text" autocomplete="off">
+          <label class="form__label" for="number" >Ваш телефон</label>
+
+          <input class="form__input" placeholder=" " id="name-user" type="text" autocomplete="off">
+          <label class="form__label" for="name-user">Ваше имя</label>
+        </div>
 
         <button class="form__button">Оставить заявку</button>
       </form>
