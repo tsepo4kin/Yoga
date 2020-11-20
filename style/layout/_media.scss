@@ -1,9 +1,39 @@
 @media(max-width: 1024px) {
   .header {
     &__main-discription {
+      width: 315px;
       margin-top: 100px;
-      margin-left: 280px;
+      margin-left: 250px;
       font-size: 24px;
     }
+
+    &__main-title {  
+      font-size: 144px;
+    }
+
   }
+
+  .top-navigation {
+    padding: 35px 130px 0 130px;
+  
+    display: flex;
+    justify-content: space-between;
+  
+    &__nav-menu {
+      font-family: Geometria;
+      font-size: 16px;
+      font-weight: bold;
+  
+      color: #8b7eac;
+    }
+  
+    &__phone-number {
+      font-family: Geometria;
+      font-size: 16px;
+      font-weight: bold;
+  
+      color: #8b7eac;
+    }
+  }
+
 }

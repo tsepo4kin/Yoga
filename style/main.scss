@@ -1,22 +1,3 @@
-@import "./abstracts/functions";
-@import "./abstracts/mixins";
-@import "./abstracts/placeholders";
-@import "./abstracts/variables";
-
-@import "./base/normalize";
-@import "./base/typography";
-
-@import "./components/buttons";
-
-@import "./layout/footer";
-@import "./layout/forms";
-@import "./layout/header";
-@import "./layout/media";
-@import "./layout/navigation";
-
-
-
-
 @font-face {
   font-family: Geometria; /* Имя шрифта */
   src: url(../fonts/geometria/Geometria.ttf); /* Путь к файлу со шрифтом */
@@ -52,7 +33,7 @@
   &__main-title {
     margin-top: -30px;
     margin-bottom: 0;
-
+    width: 100%;
     font-family: Geometria;
     font-size: 265px;
     letter-spacing: 0.34em;
@@ -799,3 +780,20 @@
     color: rgba(255, 255, 255, 0.5);
   }
 }
+
+
+@import "./abstracts/functions";
+@import "./abstracts/mixins";
+@import "./abstracts/placeholders";
+@import "./abstracts/variables";
+
+@import "./base/normalize";
+@import "./base/typography";
+
+@import "./components/buttons";
+
+@import "./layout/footer";
+@import "./layout/forms";
+@import "./layout/header";
+@import "./layout/media";
+@import "./layout/navigation";
