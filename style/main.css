@@ -1131,7 +1131,7 @@ input[type="checkbox"], input[type="radio"] {
 @media (max-width: 1024px) {
   .header__main-discription {
     width: 315px;
-    margin-top: 100px;
+    margin-top: 75px;
     margin-left: 250px;
     font-size: 24px;
   }
@@ -1148,16 +1148,41 @@ input[type="checkbox"], input[type="radio"] {
             justify-content: space-between;
   }
   .top-navigation__nav-menu {
-    font-family: Geometria;
-    font-size: 16px;
-    font-weight: bold;
-    color: #8b7eac;
+    font-size: 12px;
   }
   .top-navigation__phone-number {
-    font-family: Geometria;
-    font-size: 16px;
-    font-weight: bold;
-    color: #8b7eac;
+    font-size: 12px;
+  }
+  .registration {
+    width: 240px;
+    height: 26px;
+  }
+  .registration__button {
+    display: block;
+    width: 30px;
+    height: 26px;
+  }
+  .registration__label {
+    width: 170px;
+    height: 26px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .bot-navigation {
+    margin: 80px 130px 0 130px;
+    padding-bottom: 80px;
+  }
+  .bot-navigation__city {
+    font-size: 12px;
+  }
+  .social-buttons {
+    width: 35px;
+  }
+  .social-buttons--double {
+    width: 25px;
+  }
+  .subtitle {
+    font-size: 21px;
   }
 }
 /*# sourceMappingURL=main.css.map */

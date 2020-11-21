@@ -2,7 +2,7 @@
   .header {
     &__main-discription {
       width: 315px;
-      margin-top: 100px;
+      margin-top: 75px;
       margin-left: 250px;
       font-size: 24px;
     }
@@ -20,20 +20,64 @@
     justify-content: space-between;
   
     &__nav-menu {
-      font-family: Geometria;
-      font-size: 16px;
-      font-weight: bold;
-  
-      color: #8b7eac;
+      font-size: 12px;
     }
   
     &__phone-number {
-      font-family: Geometria;
-      font-size: 16px;
-      font-weight: bold;
-  
-      color: #8b7eac;
+      font-size: 12px;
     }
+  }
+
+  .registration {
+    width: 240px;
+    height: 26px;
+
+    &__button {
+      display: block;
+      width: 30px;
+      height: 26px;
+    }
+
+    &__label {
+      width: 170px;
+      height: 26px;
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+
+  .bot-navigation {
+    margin: 80px 130px 0 130px;
+    padding-bottom: 80px;
+
+    &__city {
+      font-size: 12px;
+    }
+  }
+
+  .social-buttons {
+    width: 35px;
+    &__vk {
+    }
+    &__twitter {
+    }
+  
+    &__facebook {
+    }
+  }
+  
+  .social-buttons--double {
+    width: 25px;
+
+    &__vk {
+    }
+  
+    &__twitter {
+    }
+  }
+
+  .subtitle {
+    font-size: 21px;
   }
 
 }
