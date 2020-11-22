@@ -48,7 +48,7 @@
 
   .bot-navigation {
     margin: 80px 130px 0 130px;
-    padding-bottom: 80px;
+    padding-bottom: 0px;
 
     &__city {
       font-size: 12px;
@@ -79,5 +79,201 @@
   .subtitle {
     font-size: 21px;
   }
+  
+  .main {
+  }
+
+  .directions {
+  
+      &__wrapper {
+        height: 335px;
+        margin-top: 23px;
+      }
+  
+      &__button {
+      }
+  }
+  .direction-item {
+    width: 355px;
+    height: 121px;
+  
+      &__image {
+        width: 148px;
+        height: 121px;
+        size: 100%;
+      }
+  
+      &__wrapper {
+        padding: 20px;
+        width: 165px;
+        height: 81px;
+      }
+  
+      &__title {
+        font-size: 12px;
+      }
+  
+      &__work-time {
+        height: 27px;
+        font-size: 10px;
+        line-height: 15px;
+      }
+  
+      &__coach {
+        width: 120px;
+        font-size: 10px;
+        line-height: 15px;
+      }
+  
+      &__button {
+        width: 30px;
+        height: 20px;
+      }
+  }
+  .direction-item--main {
+    width: 243px;
+    height: 335px;
+    margin-top: 23px;
+    margin-bottom: 100px;
+
+    .direction-item {
+
+      &__wrapper {
+        padding: 20px;
+        width: 160px;
+      }
+
+      &__image {
+        width: 243px;
+        height: 210px;
+        size: 100%;
+      }
+
+      &__button {
+        width: 43px;
+        height: 122px;
+        margin: 0;
+      }
+    }
+  }
+  .season-tickets {
+  
+      &__wrapper {
+      }
+  }
+  .tickets-duration {
+  
+      &__item {
+      }
+  
+      &__item--active {
+      }
+  }
+  .ticket-item {
+  
+      &__title {
+      }
+  
+      &__time {
+      }
+  
+      &__cost {
+      }
+  
+      &__button {
+      }
+  }
+  .ticket-item--active {
+  }
+  .team {
+  
+      &__wrapper {
+      }
+  }
+  .team-member {
+  
+      &__image {
+      }
+  
+      &__wrapper {
+      }
+  
+      &__name {
+      }
+  
+      &__direction {
+      }
+  
+      &__details {
+      }
+  }
+  .social-buttons {
+  
+      &__vk {
+      }
+  
+      &__twitter {
+      }
+  }
+  .social-buttons--double {
+  }
+  .pagination {
+  
+      &__back {
+      }
+  
+      &__count {
+      }
+  
+      &__forward {
+      }
+  }
+  .trainer {
+  
+      &__background {
+      }
+  
+      &__title {
+      }
+  
+      &__experience {
+      }
+  }
+  .about-trainer {
+  
+      &__text {
+      }
+  }
+  .reviews {
+  
+      &__button-back {
+      }
+  
+      &__button-forward {
+      }
+  }
+  .review-item {
+  
+      &__icon {
+      }
+  
+      &__description {
+      }
+  }
+  .reviewer {
+  
+      &__image {
+      }
+  
+      &__wrapper {
+      }
+  
+      &__name {
+      }
+  
+      &__date {
+      }
+  }
+  
 
 }

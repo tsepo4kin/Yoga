@@ -179,11 +179,9 @@
   flex-wrap: wrap;
 
   &__wrapper {
-    width: 270px;
-    height: 115px;
-    padding-left: 35px;
-    padding-top: 35px;
-    padding-bottom: 30px;
+    width: 235px;
+    height: 110px;
+    padding: 35px;
     background: #ffffff;
     box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
     display: flex;
@@ -208,7 +206,7 @@
     color: white;
     cursor: pointer;
     border: 0;
-    margin-left: 65px;
+    margin-left: auto;
   }
 
 
@@ -246,7 +244,8 @@
 
     &__wrapper {
       width: 250px;
-      padding-left: 45px;
+      padding-left: 35px;
+      padding-right: 10px;
     }
 
     &__button {
