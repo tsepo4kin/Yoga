@@ -1183,6 +1183,11 @@ input[type="checkbox"], input[type="radio"] {
   .subtitle {
     font-size: 21px;
   }
+  .directions {
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .directions__wrapper {
     height: 335px;
     margin-top: 23px;
@@ -1237,6 +1242,42 @@ input[type="checkbox"], input[type="radio"] {
     width: 43px;
     height: 122px;
     margin: 0;
+  }
+  .season-tickets__wrapper {
+    width: 620px;
+  }
+  .tickets-duration {
+    margin-top: 10px;
+    margin-bottom: 45px;
+  }
+  .ticket-item {
+    width: 175px;
+    height: 160px;
+  }
+  .ticket-item__title {
+    font-size: 18px;
+    margin-top: 35px;
+    margin-bottom: 12px;
+  }
+  .ticket-item__time {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  .ticket-item__cost {
+    font-size: 21px;
+  }
+  .ticket-item__button {
+    width: 150px;
+    height: 35px;
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .ticket-item--active {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 110px;
   }
 }
 /*# sourceMappingURL=main.css.map */

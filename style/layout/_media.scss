@@ -84,6 +84,9 @@
   }
 
   .directions {
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
   
       &__wrapper {
         height: 335px;
@@ -159,9 +162,13 @@
   .season-tickets {
   
       &__wrapper {
+        width: 620px;
       }
   }
   .tickets-duration {
+
+    margin-top: 10px;
+    margin-bottom: 45px;
   
       &__item {
       }
@@ -170,20 +177,37 @@
       }
   }
   .ticket-item {
+    width: 175px;
+    height: 160px;
   
       &__title {
+        font-size: 18px;
+        margin-top: 35px;
+        margin-bottom: 12px;
       }
   
       &__time {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 0;
+        margin-bottom: 12px;
       }
   
       &__cost {
+        font-size: 21px;
       }
   
       &__button {
+        width: 150px;
+        height: 35px;
+        font-size: 10px;
+        margin-top: 20px;
       }
   }
   .ticket-item--active {
+    width: 220px;
+    height: 220px;
+    margin-bottom: 110px;
   }
   .team {
   
