@@ -12,6 +12,10 @@
   src: url(../fonts/Francois-One/FrancoisOne-Regular.ttf); /* Путь к файлу со шрифтом */
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   background-image: url(../img/yogaHeader.png);
   background-size: 100% 100%;
@@ -357,6 +361,7 @@
 .team {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 
   &__wrapper {
     display: flex;
@@ -364,16 +369,15 @@
     flex-wrap: wrap;
     padding: 0;
     margin-left: auto;
-    position: relative;
+  }
 
-    &__background {
-      position: absolute;
-      z-index: -1;
-      width: 1200px;
-      height: 1325;
-      top: -23%;
-      left: -63%;
-    }
+  &__background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 1325;
+    top: -15%;
+    left: -10%;
   }
 }
 .team-member {
@@ -494,7 +498,7 @@
 
   &__background {
     position: absolute;
-    width: 576px;
+    width: 100%;
     height: 514px;
     left: 5%;
     top: -17%;
@@ -530,6 +534,7 @@
 .reviews {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 145px;
 
   &__button-back {
     margin: auto -33px auto auto;
@@ -550,6 +555,10 @@
     background: #8e80a9;
     border: 0;
     cursor: pointer;
+  }
+  
+  .pagination {
+    display: none;
   }
 }
 .review-item {

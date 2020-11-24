@@ -210,74 +210,118 @@
     margin-bottom: 110px;
   }
   .team {
+    margin-bottom: 110px;
   
       &__wrapper {
+        width: 270px;
+        margin-bottom: 0;
+      }
+
+      &__background {
+        left: -15%;
       }
   }
   .team-member {
+    width: 270px;
+    height: 110px;
+    margin-bottom: 20px;
   
       &__image {
+        margin-right: -77px;
+        width: 92px;
+        height: 92px;
       }
   
       &__wrapper {
+        margin-top: 35px;
+        padding: 10px;
+        width: 235px;
+        height: 48px;
       }
   
       &__name {
+        width: 95px;
+        height: 25px;
+        margin-left: 75px;
+        margin-top: 0;
+        margin-bottom: 8px;
+        margin-right: 30px;
+        font-size: 10px;
+        line-height: 15px;
       }
   
       &__direction {
+        font-size: 10px;
+        margin-left: 75px;
+        width: 80px;
       }
   
       &__details {
+        font-size: 10px;
       }
   }
-  .social-buttons {
   
-      &__vk {
-      }
-  
-      &__twitter {
-      }
-  }
-  .social-buttons--double {
-  }
   .pagination {
+    margin-top: 5px;
+    width: 105px;
   
       &__back {
+        width: 29px;
+        height: 19px;
       }
   
       &__count {
       }
   
       &__forward {
+        width: 29px;
+        height: 19px;
       }
   }
   .trainer {
-  
+    width: 300px;
+
       &__background {
+        display: none;
       }
   
       &__title {
+        margin-top: 0;
+        font-size: 16px;
       }
   
       &__experience {
+        font-size: 12px;
       }
   }
   .about-trainer {
   
       &__text {
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 7px;
       }
   }
   .reviews {
   
       &__button-back {
+        display: none;
       }
   
       &__button-forward {
+        display: none;
+      }
+      
+      .pagination {
+        display: flex;
+        padding-left: 190px;
+        padding-right: 190px;
+        margin: 0 auto;
+        margin-top: 40px;
       }
   }
   .review-item {
-  
+    margin: 0 auto;
       &__icon {
       }
   
