@@ -758,6 +758,7 @@
   .reviews {
     flex-wrap: nowrap;
     flex-direction: column;
+    margin-bottom: 70px;
       &__button-back {
         display: none;
       }
@@ -767,23 +768,46 @@
       }
       
       .pagination {
+        padding: 0;
         display: flex;
-        padding-left: 190px;
-        padding-right: 190px;
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 30px;
       }
   }
   .review-item {
     margin: 0 auto;
     margin-top: 20px;
+    padding: 0;
+    display: none;
+    width: 250px;
+    height: 270px;
       &__icon {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        margin-left: 15px;
       }
   
       &__description {
+        width: 220px;
+        font-size: 10px;
+        line-height: 15px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        height: 40px;
       }
   }
+
+  .review-item--sm {
+    display: block;
+  }
+
   .reviewer {
+    width: 220px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
   
       &__image {
       }

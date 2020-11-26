@@ -1737,6 +1737,7 @@ input[type="checkbox"], input[type="radio"] {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 70px;
   }
   .reviews__button-back {
     display: none;
@@ -1745,17 +1746,44 @@ input[type="checkbox"], input[type="radio"] {
     display: none;
   }
   .reviews .pagination {
+    padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding-left: 190px;
-    padding-right: 190px;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .review-item {
     margin: 0 auto;
     margin-top: 20px;
+    padding: 0;
+    display: none;
+    width: 250px;
+    height: 270px;
+  }
+  .review-item__icon {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 15px;
+  }
+  .review-item__description {
+    width: 220px;
+    font-size: 10px;
+    line-height: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    height: 40px;
+  }
+  .review-item--sm {
+    display: block;
+  }
+  .reviewer {
+    width: 220px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer {
     height: 475px;
