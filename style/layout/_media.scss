@@ -367,6 +367,443 @@
   
   .top-footer {
     margin-bottom: 0;
+    width: 100%;
+  }
+  
+  .contacts {
+    display: none;
+  
+    &__address {
+    }
+  
+    &__work-time {
+    }
+  
+    &__number {
+    }
+  
+    &__email {
+    }
+  }
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    &__title {
+    }
+  
+    &__wrapper {
+    }
+  
+    &__label {
+    }
+  
+    &__input {
+    }
+  
+    &__button {
+    }
+  }
+  .bot-footer {
+    height: 345px;
+    flex-direction: column;
+    padding-left: 75px;
+
+    .contacts {
+      display: flex;
+      margin-top: 70px;
+      width: 345px;
+      &__address {
+        color: white;
+        width: 151px;
+        height: 40px;
+      }
+    
+      &__work-time {
+        color: white;
+        width: 200px;
+        height: 40px;
+      }
+    
+      &__number {
+        color: white;
+        width: 123px;
+        height: 40px;
+      }
+    
+      &__email {
+        color: white;
+        width: 123px;
+        height: 40px;
+      }
+    }
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row-reverse;
+      width: 345px;
+    }
+
+    &__site {
+      margin: 0;
+      display: block;
+      width: 123px;
+    }
+  
+    &__copyrights {
+      margin: 0;
+      display: block;
+      width: 180px;
+    }
+  }
+
+}
+
+
+@media(max-width: 320px) {
+  .header {
+    &__main-discription {
+      width: 235px;
+      margin-top: 70px;
+      font-size: 18px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    &__main-title {  
+      font-size: 67px;
+      margin-top: -15px;
+      width: 254px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  }
+
+  .top-navigation {
+    padding: 20px 15px 0 15px;
+  
+    &__nav-menu {
+      display: block;
+      width: 30px;
+      height: 12px;
+      background-color: gray;
+    }
+  
+    &__phone-number {
+      font-size: 12px;
+      width: 105px;
+    }
+  }
+
+  .registration {
+    width: 175px;
+    height: 26px;
+
+    &__button {
+      margin-right: 8px;
+    }
+
+    &__label {
+      width: 137px;
+    }
+  }
+
+  .bot-navigation {
+    display: none;
+  }
+
+  .social-buttons {
+    width: 35px;
+    &__vk {
+    }
+    &__twitter {
+    }
+  
+    &__facebook {
+    }
+  }
+  
+  .social-buttons--double {
+    width: 25px;
+
+    &__vk {
+    }
+  
+    &__twitter {
+    }
+  }
+
+  .social-buttons--white {
+    width: 25px;
+
+    &__vk {
+      color: white;
+    }
+  
+    &__twitter {
+      color: white;
+    }
+
+    &__facebook {
+      color: white;
+    }
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+  
+  .main {
+  }
+
+  .directions {
+    padding-top: 53px;
+    margin-bottom: 23px;
+  
+      &__wrapper {
+        height: auto;
+        margin: 0 auto;
+      }
+  
+      &__button {
+        display: none;
+      }
+  }
+  .direction-item {
+    width: 243px;
+    height: 335px;
+    margin-bottom: 30px;
+
+    &--main {
+      margin-bottom: 30px;
+    }
+  
+    &__wrapper {
+      padding: 20px;
+      width: 160px;
+    }
+
+    &__image {
+      width: 243px;
+      height: 210px;
+      size: 100%;
+    }
+
+    &__button {
+      width: 43px;
+      height: 122px;
+      margin: 0;
+      display: block;
+
+      &-wrap {
+        display: none;
+      }
+    }
+  }
+  
+  .season-tickets {
+    background-size: cover;
+  
+      &__wrapper {
+        width: 100%;
+        flex-direction: column;
+      }
+  }
+  .tickets-duration {
+    width: 225px;
+    margin-top: 23px;
+    margin-bottom: 30px;
+  
+      &__item {
+        &__button {
+          padding: 0;
+        }
+      }
+  
+      &__item--active {
+      }
+  }
+  .ticket-item {
+    width: 250px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  
+      &__title {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+      }
+  
+      &__time {
+        font-size: 10px;
+        line-height: 15px;
+        margin-top: 0;
+        margin-bottom: 12px;
+      }
+  
+      &__cost {
+        font-size: 18px;
+      }
+  
+      &__button {
+        width: 150px;
+        height: 35px;
+        font-size: 10px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        display: block;
+      }
+  }
+  .ticket-item--active {
+    .ticket-item__button {
+      display: block;
+    }
+  }
+  .team {
+    margin-bottom: 110px;
+  
+      &__wrapper {
+        width: 270px;
+        margin-bottom: 0;
+      }
+
+      &__background {
+        left: -15%;
+      }
+  }
+  .team-member {
+    width: 270px;
+    height: 110px;
+    margin-bottom: 20px;
+  
+      &__image {
+        margin-right: -77px;
+        width: 92px;
+        height: 92px;
+      }
+  
+      &__wrapper {
+        margin-top: 35px;
+        padding: 10px;
+        width: 235px;
+        height: 48px;
+      }
+  
+      &__name {
+        width: 95px;
+        height: 25px;
+        margin-left: 75px;
+        margin-top: 0;
+        margin-bottom: 8px;
+        margin-right: 30px;
+        font-size: 10px;
+        line-height: 15px;
+      }
+  
+      &__direction {
+        font-size: 10px;
+        margin-left: 75px;
+        width: 80px;
+      }
+  
+      &__details {
+        font-size: 10px;
+      }
+  }
+  
+  .pagination {
+    margin-top: 5px;
+    width: 105px;
+  
+      &__back {
+        width: 29px;
+        height: 19px;
+      }
+  
+      &__count {
+      }
+  
+      &__forward {
+        width: 29px;
+        height: 19px;
+      }
+  }
+  .trainer {
+    width: 300px;
+
+      &__background {
+        display: none;
+      }
+  
+      &__title {
+        margin-top: 0;
+        font-size: 16px;
+      }
+  
+      &__experience {
+        font-size: 12px;
+      }
+  }
+  .about-trainer {
+  
+      &__text {
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 7px;
+      }
+  }
+  .reviews {
+    flex-wrap: nowrap;
+    flex-direction: column;
+      &__button-back {
+        display: none;
+      }
+  
+      &__button-forward {
+        display: none;
+      }
+      
+      .pagination {
+        display: flex;
+        padding-left: 190px;
+        padding-right: 190px;
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+  }
+  .review-item {
+    margin: 0 auto;
+    margin-top: 20px;
+      &__icon {
+      }
+  
+      &__description {
+      }
+  }
+  .reviewer {
+  
+      &__image {
+      }
+  
+      &__wrapper {
+      }
+  
+      &__name {
+      }
+  
+      &__date {
+      }
+  }
+  
+  .footer {
+    height: 475px;
+  }
+  
+  .top-footer {
+    margin-bottom: 0;
   }
   
   .contacts {

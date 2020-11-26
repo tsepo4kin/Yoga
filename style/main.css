@@ -251,6 +251,17 @@ body {
 }
 
 .direction-item__button {
+  display: none;
+  width: 45px;
+  height: 30px;
+  background: #8e80a9;
+  color: white;
+  cursor: pointer;
+  border: 0;
+  margin-left: auto;
+}
+
+.direction-item__button-wrap {
   width: 45px;
   height: 30px;
   background: #8e80a9;
@@ -302,6 +313,7 @@ body {
 }
 
 .direction-item--main .direction-item__button {
+  display: block;
   width: 64px;
   height: 180px;
   margin: 0;
@@ -407,13 +419,17 @@ body {
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
-  display: block;
+  display: none;
 }
 
 .ticket-item--active {
   width: 330px;
   height: 330px;
   margin-bottom: 146px;
+}
+
+.ticket-item--active .ticket-item__button {
+  display: block;
 }
 
 .team {
@@ -1315,6 +1331,330 @@ input[type="checkbox"], input[type="radio"] {
     width: 220px;
     height: 220px;
     margin-bottom: 110px;
+  }
+  .team {
+    margin-bottom: 110px;
+  }
+  .team__wrapper {
+    width: 270px;
+    margin-bottom: 0;
+  }
+  .team__background {
+    left: -15%;
+  }
+  .team-member {
+    width: 270px;
+    height: 110px;
+    margin-bottom: 20px;
+  }
+  .team-member__image {
+    margin-right: -77px;
+    width: 92px;
+    height: 92px;
+  }
+  .team-member__wrapper {
+    margin-top: 35px;
+    padding: 10px;
+    width: 235px;
+    height: 48px;
+  }
+  .team-member__name {
+    width: 95px;
+    height: 25px;
+    margin-left: 75px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    margin-right: 30px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .team-member__direction {
+    font-size: 10px;
+    margin-left: 75px;
+    width: 80px;
+  }
+  .team-member__details {
+    font-size: 10px;
+  }
+  .pagination {
+    margin-top: 5px;
+    width: 105px;
+  }
+  .pagination__back {
+    width: 29px;
+    height: 19px;
+  }
+  .pagination__forward {
+    width: 29px;
+    height: 19px;
+  }
+  .trainer {
+    width: 300px;
+  }
+  .trainer__background {
+    display: none;
+  }
+  .trainer__title {
+    margin-top: 0;
+    font-size: 16px;
+  }
+  .trainer__experience {
+    font-size: 12px;
+  }
+  .about-trainer__text {
+    font-size: 10px;
+    line-height: 15px;
+    margin-bottom: 7px;
+  }
+  .reviews {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .reviews__button-back {
+    display: none;
+  }
+  .reviews__button-forward {
+    display: none;
+  }
+  .reviews .pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 190px;
+    padding-right: 190px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .review-item {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .footer {
+    height: 475px;
+  }
+  .top-footer {
+    margin-bottom: 0;
+    width: 100%;
+  }
+  .contacts {
+    display: none;
+  }
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bot-footer {
+    height: 345px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 75px;
+  }
+  .bot-footer .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 70px;
+    width: 345px;
+  }
+  .bot-footer .contacts__address {
+    color: white;
+    width: 151px;
+    height: 40px;
+  }
+  .bot-footer .contacts__work-time {
+    color: white;
+    width: 200px;
+    height: 40px;
+  }
+  .bot-footer .contacts__number {
+    color: white;
+    width: 123px;
+    height: 40px;
+  }
+  .bot-footer .contacts__email {
+    color: white;
+    width: 123px;
+    height: 40px;
+  }
+  .bot-footer__wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    width: 345px;
+  }
+  .bot-footer__site {
+    margin: 0;
+    display: block;
+    width: 123px;
+  }
+  .bot-footer__copyrights {
+    margin: 0;
+    display: block;
+    width: 180px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header__main-discription {
+    width: 235px;
+    margin-top: 70px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header__main-title {
+    font-size: 67px;
+    margin-top: -15px;
+    width: 254px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .top-navigation {
+    padding: 20px 15px 0 15px;
+  }
+  .top-navigation__nav-menu {
+    display: block;
+    width: 30px;
+    height: 12px;
+    background-color: gray;
+  }
+  .top-navigation__phone-number {
+    font-size: 12px;
+    width: 105px;
+  }
+  .registration {
+    width: 175px;
+    height: 26px;
+  }
+  .registration__button {
+    margin-right: 8px;
+  }
+  .registration__label {
+    width: 137px;
+  }
+  .bot-navigation {
+    display: none;
+  }
+  .social-buttons {
+    width: 35px;
+  }
+  .social-buttons--double {
+    width: 25px;
+  }
+  .social-buttons--white {
+    width: 25px;
+  }
+  .social-buttons--white__vk {
+    color: white;
+  }
+  .social-buttons--white__twitter {
+    color: white;
+  }
+  .social-buttons--white__facebook {
+    color: white;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .directions {
+    padding-top: 53px;
+    margin-bottom: 23px;
+  }
+  .directions__wrapper {
+    height: auto;
+    margin: 0 auto;
+  }
+  .directions__button {
+    display: none;
+  }
+  .direction-item {
+    width: 243px;
+    height: 335px;
+    margin-bottom: 30px;
+  }
+  .direction-item--main {
+    margin-bottom: 30px;
+  }
+  .direction-item__wrapper {
+    padding: 20px;
+    width: 160px;
+  }
+  .direction-item__image {
+    width: 243px;
+    height: 210px;
+    size: 100%;
+  }
+  .direction-item__button {
+    width: 43px;
+    height: 122px;
+    margin: 0;
+    display: block;
+  }
+  .direction-item__button-wrap {
+    display: none;
+  }
+  .season-tickets {
+    background-size: cover;
+  }
+  .season-tickets__wrapper {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tickets-duration {
+    width: 225px;
+    margin-top: 23px;
+    margin-bottom: 30px;
+  }
+  .tickets-duration__item__button {
+    padding: 0;
+  }
+  .ticket-item {
+    width: 250px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+  .ticket-item__title {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .ticket-item__time {
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+  .ticket-item__cost {
+    font-size: 18px;
+  }
+  .ticket-item__button {
+    width: 150px;
+    height: 35px;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: block;
+  }
+  .ticket-item--active .ticket-item__button {
+    display: block;
   }
   .team {
     margin-bottom: 110px;

@@ -205,6 +205,7 @@ body {
   }
 
   &__button {
+    display: none;
     width: 45px;
     height: 30px;
     background: #8e80a9;
@@ -212,6 +213,16 @@ body {
     cursor: pointer;
     border: 0;
     margin-left: auto;
+    
+    &-wrap {
+      width: 45px;
+      height: 30px;
+      background: #8e80a9;
+      color: white;
+      cursor: pointer;
+      border: 0;
+      margin-left: auto;
+    }
   }
 
 
@@ -254,6 +265,7 @@ body {
     }
 
     &__button {
+      display: block;
       width: 64px;
       height: 180px;
       margin: 0;
@@ -351,13 +363,17 @@ body {
     margin-top: 35px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: none;
   }
 }
 .ticket-item--active {
   width: 330px;
   height: 330px;
   margin-bottom: 146px;
+  
+  .ticket-item__button {
+    display: block;
+  }
 }
 .team {
   display: flex;
