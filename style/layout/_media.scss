@@ -92,6 +92,16 @@
     }
   }
 
+  .social-buttons--double--vertical {
+    max-width: 15px;
+    flex-direction: column;
+    &__vk {
+    }
+  
+    &__twitter {
+    }
+  }
+
   .subtitle {
     font-size: 21px;
   }
@@ -441,6 +451,7 @@
       display: flex;
       justify-content: space-between;
       flex-direction: row-reverse;
+      padding: 0;
       width: 345px;
     }
 
@@ -663,55 +674,78 @@
     }
   }
   .team {
-    margin-bottom: 110px;
+    margin-bottom: 70px;
   
       &__wrapper {
-        width: 270px;
-        margin-bottom: 0;
+        width: calc(100vw - 30px);
+        justify-content: space-between;
+        height: 82px;
+        margin: 0 auto;
+        margin-top: 23px;
+
       }
 
       &__background {
         left: -15%;
       }
+
+      &__forward-pagination {
+        display: block;
+      }
+    
+      &__backward-pagination {
+        display: block;
+      }
+
+    .pagination {
+      display: none;
+    }
   }
   .team-member {
-    width: 270px;
-    height: 110px;
-    margin-bottom: 20px;
+    display: none;
+    width: 230px;
+    height: 82px;
+    margin-bottom: 0px;
   
       &__image {
+        position: absolute;
         margin-right: -77px;
-        width: 92px;
-        height: 92px;
+        width: 82px;
+        height: 82px;
       }
   
       &__wrapper {
-        margin-top: 35px;
-        padding: 10px;
-        width: 235px;
-        height: 48px;
+        margin: 0px;
+        padding: 20px;
+        width: 190px;
+        height: 42px;
       }
   
       &__name {
-        width: 95px;
+        width: 85px;
         height: 25px;
-        margin-left: 75px;
+        margin-left: 77px;
         margin-top: 0;
         margin-bottom: 8px;
-        margin-right: 30px;
+        margin-right: 0px;
         font-size: 10px;
         line-height: 15px;
       }
   
       &__direction {
         font-size: 10px;
-        margin-left: 75px;
+        margin-left: 77px;
         width: 80px;
       }
   
       &__details {
         font-size: 10px;
+        display: none;
       }
+  }
+
+  .team-member--sm-vision {
+    display: block;
   }
   
   .pagination {
@@ -732,13 +766,16 @@
       }
   }
   .trainer {
-    width: 300px;
+    width: 230px;
+    margin-top: 25px;
+    margin-left: 45px;
 
       &__background {
         display: none;
       }
   
       &__title {
+        display: none;
         margin-top: 0;
         font-size: 16px;
       }

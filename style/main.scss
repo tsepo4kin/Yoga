@@ -396,6 +396,32 @@ body {
     top: -15%;
     left: -10%;
   }
+
+  &__forward-pagination {
+    width: 15px;
+    height: 30px;
+    background: #8E80A9;
+    color: white;
+    font-size: 10px;
+    border: 0;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto 0;
+    display: none;
+  }
+
+  &__backward-pagination {
+    width: 15px;
+    height: 30px;
+    background: #8E80A9;
+    color: white;
+    font-size: 10px;
+    border: 0;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto 0;
+    display: none;
+  }
 }
 .team-member {
   list-style: none;
@@ -798,6 +824,14 @@ body {
   .contacts {
     display: none;
   }
+
+  &__wrapper {
+    width: 100%;
+    padding: 0 270px;
+    display: flex;
+    justify-content: space-between;
+  }
+
   &__site {
     font-family: Geometria;
     font-size: 12px;
@@ -805,7 +839,6 @@ body {
     line-height: 20px;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 379px;
     color: rgba(255, 255, 255, 0.5);
   }
 
@@ -816,8 +849,6 @@ body {
     line-height: 20px;
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
-    margin-right: 379px;
     color: rgba(255, 255, 255, 0.5);
   }
 }
